@@ -18,7 +18,7 @@ body {
   max-width: 400px;
   display: block;
   margin: 15px auto;
-  background-color: rgba(179, 107, 152, 0.5);
+  background-color: rgba(148, 114, 241, 0.5);
 }
 
 ul {
@@ -26,8 +26,6 @@ ul {
 }
 
 .country-list {
-  display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   text-align: center;
 }
@@ -36,12 +34,11 @@ ul {
   width: 300px;
   margin-right: 20px;
   margin-bottom: 40px;
-  background-color: rgba(125, 241, 114, 0.549);
+  background-color: rgba(148, 114, 241, 0.5);
 }
 
 .country-info {
   display: flex;
-  flex-direction: column;
   align-items: center;
 }
 .country-info__desc {
