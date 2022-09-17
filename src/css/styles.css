@@ -16,5 +16,35 @@ body {
   font: inherit;
   padding: 8px;
   max-width: 320px;
-  margin-bottom: 16px;
+  display: block;
+  margin: 10px auto;
+  background-color: rgba(241, 241, 114, 0.5);
+}
+
+ul {
+  list-style: none;
+}
+
+.country-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+.country-list__item {
+  width: 300px;
+  margin-right: 20px;
+  margin-bottom: 40px;
+  background-color: rgba(241, 241, 114, 0.5);
+}
+
+.country-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.country-info__desc {
+  padding: 50px;
+  background-color: rgba(241, 241, 114, 0.5);
 }
