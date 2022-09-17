@@ -18,7 +18,9 @@ body {
   max-width: 400px;
   display: block;
   margin: 15px auto;
-  background-color: rgba(148, 114, 241, 0.5);
+
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
 }
 
 ul {
@@ -26,6 +28,8 @@ ul {
 }
 
 .country-list {
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   text-align: center;
 }
@@ -34,14 +38,19 @@ ul {
   width: 300px;
   margin-right: 20px;
   margin-bottom: 40px;
-  background-color: rgba(148, 114, 241, 0.5);
+  background-color: rgba(24, 131, 67, 0.5);
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
 }
 
 .country-info {
   display: flex;
+  flex-direction: column;
   align-items: center;
 }
 .country-info__desc {
   padding: 50px;
-  background-color: rgba(148, 114, 241, 0.5);
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
 }
