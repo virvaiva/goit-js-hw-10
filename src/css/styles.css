@@ -14,11 +14,11 @@ body {
 
 #search-box {
   font: inherit;
-  padding: 8px;
-  max-width: 320px;
+  padding: 10px;
+  max-width: 400px;
   display: block;
-  margin: 10px auto;
-  background-color: rgba(241, 241, 114, 0.5);
+  margin: 15px auto;
+  background-color: rgba(179, 107, 152, 0.5);
 }
 
 ul {
@@ -36,7 +36,7 @@ ul {
   width: 300px;
   margin-right: 20px;
   margin-bottom: 40px;
-  background-color: rgba(241, 241, 114, 0.5);
+  background-color: rgba(125, 241, 114, 0.549);
 }
 
 .country-info {
@@ -46,5 +46,5 @@ ul {
 }
 .country-info__desc {
   padding: 50px;
-  background-color: rgba(241, 241, 114, 0.5);
+  background-color: rgba(148, 114, 241, 0.5);
 }
